@@ -1,0 +1,195 @@
+:root {
+    --wdg4-gray: #B2B7CA;
+    --wdg4-dark: #373B5A;
+    --wdg4-violet: #6C6DF5;
+    --wdg4-light-violet: #B3B7F6;
+    --wdg4-white: #FFF;
+    --wdg4-background: #F2F6FE;
+    --rm-shadow: rgb(108, 109, 245, 0.1);
+}
+
+body {
+    background: #d3e1ff;
+    /* background: var(--wdg4-dark); */
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+.nav-link {
+    color: var(--wdg4-dark);
+}
+
+.active{
+    color: var(--wdg4-violet);
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 70%;
+    margin: 20px 20px 20px 0;
+}
+
+.col-header {
+    color: var(--wdg4-gray);
+}
+
+.link-secondary {
+    color: var(--wdg4-gray);
+    text-decoration: none;
+}
+
+.footer-copyright {
+    color: var(--wdg4-gray);
+}
+
+.rm-text-primary {
+    color: var(--wdg4-violet);
+}
+
+.rm-text-bold {
+    font-weight: 900;
+}
+
+.rm-text-semi-bold {
+    font-weight: 600;
+}
+
+.rm-text-medium {
+    font-weight: 500;
+}
+
+.rm-rounded {
+    border-radius: 10px;
+}
+
+.rm-rounded-5 {
+    border-radius: 50px;
+}
+
+.rm-box-shadow {
+    box-shadow: 0 4px 4px 0 var(--rm-shadow);
+}
+
+.rm-text-muted {
+    color: var(--wdg4-gray);
+}
+
+.rm-display-1 {
+    font-size: calc(2.5rem + 1.3vw) ;
+}
+
+.rm-display-3 {
+    /* font-size: 2rem; */
+    font-size: calc(1rem + 1.2vw);
+}
+
+.rm-text-dark {
+    color: var(--wdg4-dark);
+}
+
+.rm-progress-whole {
+    background: #ECEFF7;
+    height: 20px;
+    padding: 0;
+}
+
+.rm-progress-current {
+    background: var(--wdg4-violet);
+}
+
+.rm-bg-primary {
+    background: var(--wdg4-violet);
+}
+
+.rm-btn {
+    padding: 16px 32px;
+    background: var(--wdg4-violet);
+}
+
+.rm-display-4 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rm-link-secondary {
+    color: var(--wdg4-white);
+}
+
+.rm-hover {
+    border: 1px solid transparent;
+}
+
+.rm-hover:hover {
+    border: 2px solid #3B90EA;
+}
+
+.rm-active {
+    background: var(--wdg4-violet);
+    fill: var(--wdg4-white);
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--wdg4-light-violet); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--wdg4-violet); 
+  }
+
+small {
+    line-height: 0;
+}
+
+.main-news {
+    background: url(../assets/fiesta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    min-height: 300px;
+    position: relative;
+}
+
+.main-title {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
+.rm-btn-primary {
+    background: var(--wdg4-violet)
+}
+
+.rm-form {
+    max-width: 500px;
+}
+
+.rm-border-primary {
+    border-color: var(--wdg4-violet);
+}
+.rm-display-5 {
+    font-size: 1.2rem;
+}

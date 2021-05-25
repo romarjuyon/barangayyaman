@@ -1,0 +1,11 @@
+.brgy-bg
+{
+    background: url(../assets/hero.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    height: 70vh; 
+}
+
+

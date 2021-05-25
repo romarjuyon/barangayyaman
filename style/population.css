@@ -1,0 +1,49 @@
+:root {
+    --wdg4-gray: #B2B7CA;
+    --wdg4-dark: #373B5A;
+    --wdg4-violet: #6C6DF5;
+    --wdg4-light-violet: #B3B7F6;
+    --wdg4-white: #FFF;
+    --wdg4-background: #F2F6FE;
+    --rm-shadow: rgb(108, 109, 245, 0.1);
+}
+
+.rm-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.5rem;
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+
+.rm-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #B3B7F6;
+    color: white;
+}
+
+
+.rmth-1 {
+    border-radius: 10px 0 0 10px ;
+}
+
+.rmth-2 {
+    border-radius: 0 10px 10px 0 ; 
+}
+
+tr {
+    text-align: center;
+    background: var(--wdg4-white);
+}
+
+.rm-table th:nth-child(2){
+    padding-left: 10px;
+    text-align: left;
+}
+
+.rm-table td:nth-child(2){
+    padding-left: 10px;
+    text-align: left;
+}

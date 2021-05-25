@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/population.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Population</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-light">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="/assets/logo-admin.png"
+            alt="barangay-logo"
+            class="img-fluid"
+            style="max-height: 50px"
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-2">
+          <h3 class="rm-display-4 rm-text-dark rm-text-medium">Menu</h3>
+          <div class="row justify-content-center p-2">
+
+
+            <!-- Dashboard -->
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/overview.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <!-- End of Dashboard -->
+
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.residents.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/Residents.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.households.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/households.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.education.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/education.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                rm-active
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.occupation.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/occupation-active.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.business.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/business.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-2
+                px-1
+                m-2
+                mt-5
+              "
+            >
+              <a href="/admin/login.html" class="rm-link"
+                ><img
+                  src="/assets/logout.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+                  style="max-width: 100px"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- table -->
+          <h3 class="rm-display-4 rm-text-dark rm-text-medium">Occupations
+          </h3>
+          <div class="overflow-auto  bg-light p-1" style="max-height: 70vh;"> 
+            <table class="rm-table">
+              <thead><tr><th title="Field #1" class="rmth-1">Age</th>
+                <th title="Field #2">Name</th>
+                <th title="Field #3" class="rmth-2">Occupation</th>
+                </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td >22</td>
+                      <td>Sheba Silverthorn</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >54</td>
+                      <td>Beret Gimenez</td>
+                      <td>Accountants</td>
+                      </tr>
+                      <tr>
+                      <td >41</td>
+                      <td>Godwin Siemon</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >52</td>
+                      <td>Gonzalo Van der Daal</td>
+                      <td>Accountants</td>
+                      </tr>
+                      <tr>
+                      <td >22</td>
+                      <td>Mel Harbach</td>
+                      <td>Accountants</td>
+                      </tr>
+                      <tr>
+                      <td >56</td>
+                      <td>Natka Cready</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >54</td>
+                      <td>Georgine Tuffell</td>
+                      <td>Lawyer</td>
+                      </tr>
+                      <tr>
+                      <td >23</td>
+                      <td>Gasparo Dilland</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >41</td>
+                      <td>Chere Wing</td>
+                      <td>Carpenter</td>
+                      </tr>
+                      <tr>
+                      <td >44</td>
+                      <td>Mikol Janecki</td>
+                      <td>Painter</td>
+                      </tr>
+                      <tr>
+                      <td >59</td>
+                      <td>Falkner Sans</td>
+                      <td>Factory Worker</td>
+                      </tr>
+                      <tr>
+                      <td >52</td>
+                      <td>Filip Sirl</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >57</td>
+                      <td>Morley Maxstead</td>
+                      <td>Housemaid</td>
+                      </tr>
+                      <tr>
+                      <td >59</td>
+                      <td>Mace Plett</td>
+                      <td>Painter</td>
+                      </tr>
+                      <tr>
+                      <td >19</td>
+                      <td>Nelson Sharpless</td>
+                      <td>Artist</td>
+                      </tr>
+                      <tr>
+                      <td >33</td>
+                      <td>Lynnea Guidetti</td>
+                      <td>Animal Breeders</td>
+                      </tr>
+                      <tr>
+                      <td >43</td>
+                      <td>Becky Vinick</td>
+                      <td>Bakers</td>
+                      </tr>
+                      <tr>
+                      <td >31</td>
+                      <td>Sherlock McGifford</td>
+                      <td>Mobile Developer</td>
+                      </tr>
+                      <tr>
+                      <td >56</td>
+                      <td>Marina Frisdick</td>
+                      <td>Animal Breeders</td>
+                      </tr>
+                      <tr>
+                      <td >26</td>
+                      <td>Benjamen Judge</td>
+                      <td>Animal Breeders</td>
+                      </tr>
+                      <tr>
+                      <td >52</td>
+                      <td>Corabella Clemencon</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >25</td>
+                      <td>Bronson Philippsohn</td>
+                      <td>Lawyer</td>
+                      </tr>
+                      <tr>
+                      <td >45</td>
+                      <td>Winne Orford</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >58</td>
+                      <td>Grayce Eldred</td>
+                      <td>Artist</td>
+                      </tr>
+                      <tr>
+                      <td >20</td>
+                      <td>Wenona Drackford</td>
+                      <td>Accountants</td>
+                      </tr>
+                      <tr>
+                      <td >36</td>
+                      <td>Anthia Plumer</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >55</td>
+                      <td>Upton Raynor</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >48</td>
+                      <td>Gabbey Randleson</td>
+                      <td>Artist</td>
+                      </tr>
+                      <tr>
+                      <td >48</td>
+                      <td>Johnathan Rabson</td>
+                      <td>Mobile Developer</td>
+                      </tr>
+                      <tr>
+                      <td >51</td>
+                      <td>Alissa Malkin</td>
+                      <td>Artist</td>
+                      </tr>
+                      <tr>
+                      <td >21</td>
+                      <td>Peggi Yarnell</td>
+                      <td>Archeologists</td>
+                      </tr>
+                      <tr>
+                      <td >39</td>
+                      <td>Zebadiah Dellow</td>
+                      <td>Civil Servant</td>
+                      </tr>
+                      <tr>
+                      <td >45</td>
+                      <td>Konrad Paunton</td>
+                      <td>Enginner</td>
+                      </tr>
+                      <tr>
+                      <td >38</td>
+                      <td>Griffith Tace</td>
+                      <td>Housemaid</td>
+                      </tr>
+                      <tr>
+                      <td >31</td>
+                      <td>Collen Prestidge</td>
+                      <td>Enginner</td>
+                      </tr>
+                      <tr>
+                      <td >21</td>
+                      <td>Jimmy Von Oertzen</td>
+                      <td>Teacher</td>
+                      </tr>
+                      <tr>
+                      <td >23</td>
+                      <td>Randene De Lisle</td>
+                      <td>Civil Servant</td>
+                      </tr>
+                      <tr>
+                      <td >59</td>
+                      <td>Lynelle Stell</td>
+                      <td>Chefs</td>
+                      </tr>
+                      <tr>
+                      <td >39</td>
+                      <td>Vinni Mumbey</td>
+                      <td>Archeologists</td>
+                      </tr>
+                      <tr>
+                      <td >23</td>
+                      <td>Victoir Gammell</td>
+                      <td>Lawyer</td>
+                      </tr>
+                      <tr>
+                      <td >41</td>
+                      <td>Almeta Weeds</td>
+                      <td>Factory Worker</td>
+                      </tr>
+                      <tr>
+                      <td >33</td>
+                      <td>Terry Spillman</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >25</td>
+                      <td>Kitti Hartup</td>
+                      <td>Animal Breeders</td>
+                      </tr>
+                      <tr>
+                      <td >27</td>
+                      <td>Kerk Brightman</td>
+                      <td>Factory Worker</td>
+                      </tr>
+                      <tr>
+                      <td >28</td>
+                      <td>Amii Lauchlan</td>
+                      <td>Lawyer</td>
+                      </tr>
+                      <tr>
+                      <td >20</td>
+                      <td>Juliann Simonou</td>
+                      <td>Carpenter</td>
+                      </tr>
+                      <tr>
+                      <td >36</td>
+                      <td>Clayton Seiffert</td>
+                      <td>Factory Worker</td>
+                      </tr>
+                      <tr>
+                      <td >51</td>
+                      <td>Desiri Vegas</td>
+                      <td>Construction Worder</td>
+                      </tr>
+                      <tr>
+                      <td >46</td>
+                      <td>Brittaney Markussen</td>
+                      <td>Artist</td>
+                      </tr>
+                      <tr>
+                      <td >33</td>
+                      <td>Fidole Ortet</td>
+                      <td>Animal Breeders</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

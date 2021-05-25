@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style/population.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Population</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-light">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="/assets/logo-admin.png"
+            alt="barangay-logo"
+            class="img-fluid"
+            style="max-height: 50px"
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-2">
+          <h3 class="rm-display-4 rm-text-dark rm-text-medium">Menu</h3>
+          <div class="row justify-content-center p-2">
+
+
+            <!-- Dashboard -->
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/overview.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <!-- End of Dashboard -->
+
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.residents.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/Residents.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.households.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/households.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.education.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/education.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.occupation.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/occupation.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                rm-active
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="/admin/admin.business.html" class="rm-link"
+                ><img
+                  src="/assets/Menu-icons/business-active.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-2
+                px-1
+                m-2
+                mt-5
+              "
+            >
+              <a href="/admin/login.html" class="rm-link"
+                ><img
+                  src="/assets/logout.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+                  style="max-width: 100px"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- table -->
+          <h3 class="rm-display-4 rm-text-dark rm-text-medium">Business</h3>
+          <div class="overflow-auto  bg-light p-1" style="max-height: 70vh;"> 
+            <table class="rm-table">
+              <thead><tr><th title="Field #1" class="rmth-1">Business No.</th>
+                <th title="Field #2">Business Owner</th>
+                <th title="Field #3" class="rmth-2">Business Name</th>
+                </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td >1</td>
+                      <td>Farr Spaight</td>
+                      <td>Viva</td>
+                      </tr>
+                      <tr>
+                      <td >2</td>
+                      <td>Ode Lopes</td>
+                      <td>Temp</td>
+                      </tr>
+                      <tr>
+                      <td >3</td>
+                      <td>Georgianna Emma</td>
+                      <td>Hatity</td>
+                      </tr>
+                      <tr>
+                      <td >4</td>
+                      <td>Sharia Isherwood</td>
+                      <td>Keylex</td>
+                      </tr>
+                      <tr>
+                      <td >5</td>
+                      <td>Christopher Clausewitz</td>
+                      <td>Hatity</td>
+                      </tr>
+                      <tr>
+                      <td >6</td>
+                      <td>Mason Geke</td>
+                      <td>Bitwolf</td>
+                      </tr>
+                      <tr>
+                      <td >7</td>
+                      <td>Seymour McNess</td>
+                      <td>It</td>
+                      </tr>
+                      <tr>
+                      <td >8</td>
+                      <td>Cornall Norrington</td>
+                      <td>Tempsoft</td>
+                      </tr>
+                      <tr>
+                      <td >9</td>
+                      <td>Hyacintha Gennerich</td>
+                      <td>Asoka</td>
+                      </tr>
+                      <tr>
+                      <td >10</td>
+                      <td>Mikey Naylor</td>
+                      <td>Viva</td>
+                      </tr>
+                      <tr>
+                      <td >11</td>
+                      <td>Kameko Gurnee</td>
+                      <td>Bitchip</td>
+                      </tr>
+                      <tr>
+                      <td >12</td>
+                      <td>Zack Ector</td>
+                      <td>Gembucket</td>
+                      </tr>
+                      <tr>
+                      <td >13</td>
+                      <td>Bryanty Orans</td>
+                      <td>Treeflex</td>
+                      </tr>
+                      <tr>
+                      <td >14</td>
+                      <td>Holly Greenman</td>
+                      <td>Bitwolf</td>
+                      </tr>
+                      <tr>
+                      <td >15</td>
+                      <td>Cyb Roch</td>
+                      <td>Fix San</td>
+                      </tr>
+                      <tr>
+                      <td >16</td>
+                      <td>Peria Nerheny</td>
+                      <td>Asoka</td>
+                      </tr>
+                      <tr>
+                      <td >17</td>
+                      <td>Jourdain Pembry</td>
+                      <td>Otcom</td>
+                      </tr>
+                      <tr>
+                      <td >18</td>
+                      <td>Elissa Lamputt</td>
+                      <td>Bigtax</td>
+                      </tr>
+                      <tr>
+                      <td >19</td>
+                      <td>Mannie Tenman</td>
+                      <td>Trippledex</td>
+                      </tr>
+                      <tr>
+                      <td >20</td>
+                      <td>Nelly Yo</td>
+                      <td>Sub-Ex</td>
+                      </tr>
+                      <tr>
+                      <td >21</td>
+                      <td>Meyer Machans</td>
+                      <td>Treeflex</td>
+                      </tr>
+                      <tr>
+                      <td >22</td>
+                      <td>Randene Baldick</td>
+                      <td>Bamity</td>
+                      </tr>
+                      <tr>
+                      <td >23</td>
+                      <td>Ezra Tinham</td>
+                      <td>Bitwolf</td>
+                      </tr>
+                      <tr>
+                      <td >24</td>
+                      <td>Stavro Wiltshear</td>
+                      <td>Bitwolf</td>
+                      </tr>
+                      <tr>
+                      <td >25</td>
+                      <td>Gardener Mooney</td>
+                      <td>Alpha</td>
+                      </tr>
+                      <tr>
+                      <td >26</td>
+                      <td>Katie Schleswig-Holstein</td>
+                      <td>Vagram</td>
+                      </tr>
+                      <tr>
+                      <td >27</td>
+                      <td>Tadeas Tocknell</td>
+                      <td>Greenlam</td>
+                      </tr>
+                      <tr>
+                      <td >28</td>
+                      <td>Gunter Jurgen</td>
+                      <td>Andalax</td>
+                      </tr>
+                      <tr>
+                      <td >29</td>
+                      <td>Wilbert Kilmaster</td>
+                      <td>It</td>
+                      </tr>
+                      <tr>
+                      <td >30</td>
+                      <td>Corbin Earney</td>
+                      <td>Tresom</td>
+                      </tr>
+                      <tr>
+                      <td >31</td>
+                      <td>Juli Peggs</td>
+                      <td>Transcof</td>
+                      </tr>
+                      <tr>
+                      <td >32</td>
+                      <td>Rowena Neiland</td>
+                      <td>Domainer</td>
+                      </tr>
+                      <tr>
+                      <td >33</td>
+                      <td>Pam Blinder</td>
+                      <td>Greenlam</td>
+                      </tr>
+                      <tr>
+                      <td >34</td>
+                      <td>Jodi Beevers</td>
+                      <td>Aerified</td>
+                      </tr>
+                      <tr>
+                      <td >35</td>
+                      <td>Etta Luchelli</td>
+                      <td>Konklab</td>
+                      </tr>
+                      <tr>
+                      <td >36</td>
+                      <td>Vina Harbach</td>
+                      <td>Treeflex</td>
+                      </tr>
+                      <tr>
+                      <td >37</td>
+                      <td>Trixie Bracey</td>
+                      <td>Bitchip</td>
+                      </tr>
+                      <tr>
+                      <td >38</td>
+                      <td>Deeann Storton</td>
+                      <td>Flexidy</td>
+                      </tr>
+                      <tr>
+                      <td >39</td>
+                      <td>Lucias Clutterham</td>
+                      <td>Regrant</td>
+                      </tr>
+                      <tr>
+                      <td >40</td>
+                      <td>Germain Brand</td>
+                      <td>Keylex</td>
+                      </tr>
+                      <tr>
+                      <td >41</td>
+                      <td>Murry Goodridge</td>
+                      <td>Stronghold</td>
+                      </tr>
+                      <tr>
+                      <td >42</td>
+                      <td>Bobbie Tumini</td>
+                      <td>Sonsing</td>
+                      </tr>
+                      <tr>
+                      <td >43</td>
+                      <td>Silvan Maybury</td>
+                      <td>Tresom</td>
+                      </tr>
+                      <tr>
+                      <td >44</td>
+                      <td>Ellen Bennough</td>
+                      <td>Bitwolf</td>
+                      </tr>
+                      <tr>
+                      <td >45</td>
+                      <td>Lexi Jefferd</td>
+                      <td>Stronghold</td>
+                      </tr>
+                      <tr>
+                      <td >46</td>
+                      <td>Rudd Scadden</td>
+                      <td>Greenlam</td>
+                      </tr>
+                      <tr>
+                      <td >47</td>
+                      <td>Maurise Ferdinand</td>
+                      <td>Zontrax</td>
+                      </tr>
+                      <tr>
+                      <td >48</td>
+                      <td>Inna Nugent</td>
+                      <td>Pannier</td>
+                      </tr>
+                      <tr>
+                      <td >49</td>
+                      <td>Derek MacKain</td>
+                      <td>Alpha</td>
+                      </tr>
+                      <tr>
+                      <td >50</td>
+                      <td>Maegan Ballston</td>
+                      <td>Alphazap</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

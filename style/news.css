@@ -1,0 +1,73 @@
+.main {
+  background-color: #dde8ff;
+  height: auto;
+  width: auto;
+}
+
+.c1 {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  width: 306px;
+  height: 53px;
+  bottom: 100px;
+  left: 5%;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 53px;
+  /* identical to box height */
+  color: #FFF;
+}
+
+.bleft {
+  position: absolute;
+  width: 306px;
+  height: 53px;
+  bottom: 65px;
+  left: 5%;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 70px;
+  color: #FFF;
+}
+
+.c2 {
+  position: relative;
+  background: #6C6DF5;
+  padding: 5px;
+  left: 235px;
+}
+
+.nt {
+  position: absolute;
+  color: #6C6DF5;
+  left: 735px;
+  right: 235px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Heebo;
+}
+
+.text {
+  position: absolute;
+  left: 735px;
+  right: 235px;
+  color: black;
+  font-size: 15px;
+  font-family: Heebo;
+}
+
+.more {
+  position: absolute;
+  color: #595959;
+  right: 235px;
+  font-size: 15px;
+  font-family: Heebo;
+}
