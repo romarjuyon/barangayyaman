@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/population.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Population</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-light">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="../assets/logo-admin.png"
+            alt="barangay-logo"
+            class="img-fluid"
+            style="max-height: 50px"
+        /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-4">
+      <div class="row">
+        <div class="col-2">
+          <h3 class="rm-display-4 rm-text-dark rm-text-medium">Menu</h3>
+          <div class="row justify-content-center p-2">
+
+
+            <!-- Dashboard -->
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/overview.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <!-- End of Dashboard -->
+
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.residents.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/residents.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.households.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/households.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.education.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/education.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.occupation.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/occupation.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.business.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/business.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+            <!-- Add new -->
+            <div
+              class="
+                col-lg-11
+                rm-box-shadow rm-rounded bg-light rm-hover
+                py-4
+                px-5
+                m-2
+              "
+            >
+              <a href="admin.new.html" class="rm-link"
+                ><img
+                  src="../assets/Menu-icons/new.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+              /></a>
+            </div>
+
+            <!-- Add new end -->
+            <div
+              class="
+                col-lg-11
+                bg-light
+                rm-box-shadow rm-rounded rm-hover
+                py-2
+                px-1
+                m-2
+                mt-5
+              "
+            >
+              <a href="../login.html" class="rm-link"
+                ><img
+                  src="../assets/logout.svg"
+                  alt=""
+                  class="img-fluid d-block mx-auto"
+                  style="max-width: 100px"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col pt-5">
+          <div class="row g-4 p-2">
+            <div class="col-2">
+              <div class="rm-rounded card border-light rm-box-shadow">
+                <img src="../assets/Offcials/Richard Gordon.jpg" class="img-fluid mc-avatar card-img-top p-4 d-block mx-auto rm-rounded" alt="store-image-urdaneta">
+                <div class="card-body">
+                  <h3 class="rm-display-4 rm-text-primary text-center m-0">Brony Fort</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col bg-light rm-rounded ">
+              <div class="resident mb-4 bg-light p-3 rm-rounded">
+                <h3 class="rm-display-4 p-1 rm-text-primary">
+                  Resident Profile
+                </h3>
+                <div class="container-fluid">
+                  <form class="row g-3">
+                    <div class="col-md-4">
+                      <label for="inputEmail4" class="form-label">First Name</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Brony" disabled>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputPassword4" class="form-label">Middle Name</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="James" disabled>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputPassword4" class="form-label">Last Name</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Fort" disabled>
+                    </div>
+                    <div class="col-3">
+                      <div class="row">
+                        <div class="col-4">
+                          <label for="inputAddress" class="form-label">Birthdate</label>
+                          <input type="text" class="form-control" id="inputAddress" disabled placeholder="08">
+                        </div>
+                        <div class="col-4">
+                          <label for="inputAddress" class="form-label invisible">Birthdate</label>
+                          <input type="text" class="form-control" id="inputAddress" disabled placeholder="24">
+                        </div>
+                        <div class="col-4">
+                          <label for="inputAddress" class="form-label invisible">Birthdate</label>
+                          <input type="text" class="form-control" id="inputAddress" disabled placeholder="1965">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <label for="inputAddress" class="form-label">Age</label>
+                      <input type="text" class="form-control" id="inputAddress" disabled placeholder="55">
+                    </div>
+                    <div class="col-3">
+                      <label for="inputState" class="form-label">Gender</label>
+                      <input type="text" class="form-control" id="inputAddress" disabled placeholder="Male">
+                    </div>
+                    <div class="col-3">
+                      <label for="inputState" class="form-label">Occupation</label>
+                      <input type="email" class="form-control" id="inputEmail4" disabled placeholder="Teacher">
+                    </div>
+                    <label for="inputAddress" class="form-label rm-display-5 rm-text-medium rm-text-primary">Address</label>
+                    <div class="col-4">
+                      <label for="inputAddress" class="form-label">House Number</label>
+                      <input type="text" class="form-control" id="inputAddress" disabled placeholder="11">
+                    </div>
+                    <div class="col-4">
+                      <label for="inputAddress" class="form-label">Street</label>
+                      <input type="text" class="form-control" id="inputAddress" disabled placeholder="Zone 3">
+                    </div>
+                    <div class="col-4">
+                      <label for="inputAddress" class="form-label">Barangay</label>
+                      <input type="text" class="form-control" id="inputAddress" disabled placeholder="Yaman">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity" disabled placeholder="Urdaneta City">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">Province</label>
+                      <input type="email" class="form-control" id="inputEmail4" disabled placeholder="Pangasinan">
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip" disabled placeholder="2428">
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
